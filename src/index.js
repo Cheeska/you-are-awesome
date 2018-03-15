@@ -20,7 +20,6 @@ const createProtoMagicObject = () => {
 };
 
 const incrementor = () => {};
-
 const asyncIncrementor = () => {};
 const createIncrementer = () => {};
 
@@ -28,7 +27,7 @@ const createIncrementer = () => {};
 const returnBackInSecond = () => {};
 const getDeepPropertiesCount = () => {};
 const createSerializedObject = () => {
-
+    return JSON.parse(JSON.stringify(null));
 };
 const toBuffer = () => {};
 
